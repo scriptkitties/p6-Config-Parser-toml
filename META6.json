@@ -6,7 +6,8 @@
     "description": "TOML parser for Config",
     "license": "GPL-3.0",
     "depends": [
-        "Config"
+        "Config",
+        "Config::TOML"
     ],
     "provides": {
         "Config::Parser::toml": "lib/Config/Parser/toml.pm6"
