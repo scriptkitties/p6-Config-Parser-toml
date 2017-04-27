@@ -9,7 +9,7 @@
         "Config"
     ],
     "provides": {
-        "Config::Parser::toml": "lib/Config/Parser/toml.pm6",
+        "Config::Parser::toml": "lib/Config/Parser/toml.pm6"
     },
     "authors": [
         "Patrick Spek <p.spek@tyil.work>"
