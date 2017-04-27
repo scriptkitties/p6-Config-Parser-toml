@@ -8,6 +8,10 @@ A TOML parser for [Config](https://github.com/scriptkitties/p6-Config).
 zef install Config::Parser::toml
 ```
 
+## Known issues
+The dependency `Config::TOML` fails to test on Rakudo 2017.03. As such,
+you will need to use Rakudo 2017.04 or higher in order to use this module.
+
 ## License
 This program is free software: you can redistribute it and/or modify it under
 the terms of the GNU General Public License as published by the Free Software
