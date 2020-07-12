@@ -1,7 +1,7 @@
 {
     "perl": "6",
     "name": "Config::Parser::toml",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "auth": "github:scriptkitties",
     "description": "TOML parser for Config",
     "license": "GPL-3.0",
@@ -10,7 +10,7 @@
         "Config::TOML"
     ],
     "provides": {
-        "Config::Parser::toml": "lib/Config/Parser/toml.pm6"
+        "Config::Parser::toml": "lib/Config/Parser/toml.rakumod"
     },
     "authors": [
         "Patrick Spek <p.spek@tyil.work>"

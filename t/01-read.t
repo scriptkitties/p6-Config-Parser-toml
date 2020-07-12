@@ -5,13 +5,12 @@ use Test;
 use lib "lib";
 
 use Config;
-use Config::Parser::toml;
 
 plan 4;
 
 my $config = Config.new();
 
-ok $config.read("t/files/config.toml"), "File reading throws no error";
+ok $config.read('t/files/config.toml'.IO), "File reading throws no error";
 
 subtest "Contents match" => {
     plan 2;
@@ -20,7 +19,7 @@ subtest "Contents match" => {
     is $config.get("header.b"), "b", "b = b";
 };
 
-ok $config.read("t/files/merge.toml"), "File merging throws no error";
+ok $config.=read('t/files/merge.toml'.IO), "File merging throws no error";
 
 subtest "Contents match after merging" => {
     plan 4;
