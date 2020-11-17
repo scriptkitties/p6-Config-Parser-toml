@@ -1,27 +1,28 @@
 {
-    "perl": "6",
-    "name": "Config::Parser::toml",
-    "version": "1.0.2",
-    "auth": "github:scriptkitties",
-    "description": "TOML parser for Config",
-    "license": "GPL-3.0",
-    "depends": [
-        "Config:ver<3.0.3>:auth<cpan:TYIL>",
-        "Config::TOML:ver<0.1.1>:auth<atweiden>"
-    ],
-    "provides": {
-        "Config::Parser::toml": "lib/Config/Parser/toml.rakumod"
-    },
-    "authors": [
-        "Patrick Spek <p.spek@tyil.work>"
-    ],
-    "tags": [
-        "config",
-        "configuration"
-    ],
-    "test-depends": [
-        "File::Temp",
-        "Test::META"
-    ],
-    "source-url": "https://github.com/scriptkitties/p6-Config-Parser-toml.git"
+  "api": "1",
+  "auth": "github:scriptkitties",
+  "authors": [
+    "Patrick Spek <p.spek@tyil.work>"
+  ],
+  "depends": [
+    "Config::TOML:ver<0.1.1>:auth<atweiden>",
+    "Config:ver<3.0.3>:auth<cpan:TYIL>"
+  ],
+  "description": "TOML parser for Config",
+  "license": "GPL-3.0",
+  "name": "Config::Parser::toml",
+  "perl": "6",
+  "provides": {
+    "Config::Parser::toml": "lib/Config/Parser/toml.rakumod"
+  },
+  "source-url": "https://github.com/scriptkitties/p6-Config-Parser-toml.git",
+  "tags": [
+    "config",
+    "configuration"
+  ],
+  "test-depends": [
+    "File::Temp",
+    "Test::META"
+  ],
+  "version": "1.0.3"
 }
