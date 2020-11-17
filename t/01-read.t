@@ -10,7 +10,7 @@ plan 4;
 
 my $config = Config.new();
 
-ok $config.read('t/files/config.toml'.IO), "File reading throws no error";
+ok $config.=read('t/files/config.toml'.IO), "File reading throws no error";
 
 subtest "Contents match" => {
     plan 2;
