@@ -6,8 +6,8 @@
     "description": "TOML parser for Config",
     "license": "GPL-3.0",
     "depends": [
-        "Config",
-        "Config::TOML"
+        "Config:ver<3.0.3>:auth<cpan:TYIL>",
+        "Config::TOML:ver<0.1.1>:auth<atweiden>"
     ],
     "provides": {
         "Config::Parser::toml": "lib/Config/Parser/toml.rakumod"
